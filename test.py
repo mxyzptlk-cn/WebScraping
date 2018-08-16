@@ -1,4 +1,4 @@
-# coding=utf-8
+# coding:utf-8
 # Author: Mxyzptlk
 # Date: 2018-08-16
 
