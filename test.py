@@ -1,4 +1,5 @@
-# coding:utf-8
+#!/usr/bin/env python3
+# -*- coding:utf-8 -*-
 # Author: Mxyzptlk
 # Date: 2018-08-16
 
