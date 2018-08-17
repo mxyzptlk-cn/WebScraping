@@ -11,11 +11,24 @@
 # 6	物资
 # 7	收费员
 
-
+import os, time
 import pyautogui as ag
 import pyperclip as pc
 from time import sleep
 from openpyxl import load_workbook
+
+
+def print_position():
+    try:
+        while True:
+            print("Press Ctrl-C to end")
+            x, y = ag.position()  # 返回鼠标的坐标
+            posStr = "Position:" + str(x).rjust(4) + ',' + str(y).rjust(4)
+            print(posStr)  # 打印坐标
+            time.sleep(0.5)
+            os.system('cls')  # 清楚屏幕
+    except  KeyboardInterrupt:
+        print('Stopped....')
 
 
 def get_list():
@@ -77,12 +90,12 @@ def privilege_setting(arg):
         ag.click(15, aa + 15 * (arg - 1), duration=0.25)
     elif arg == 4:
         ag.click(15, aa + 15 * (arg - 1), duration=0.25)
-    ag.click(655, 997, duration=0.25)#确认
-    ag.click(1017, 603, duration=0.25)#确定修改
-    ag.click(1017, 603, duration=0.25)#修改成功
-    ag.click(1812, 997, duration=0.25)#退出
-    ag.click(439, 33, duration=0.25)#设置8
-    ag.click(502, 131, duration=0.25)#员工操作员登记
+    ag.click(655, 997, duration=0.25)  # 确认
+    ag.click(1017, 603, duration=0.25)  # 确定修改
+    ag.click(1017, 603, duration=0.25)  # 修改成功
+    ag.click(1812, 997, duration=0.25)  # 退出
+    ag.click(439, 33, duration=0.25)  # 设置8
+    ag.click(502, 131, duration=0.25)  # 员工操作员登记
     sleep(2)
 
 
