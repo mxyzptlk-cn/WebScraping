@@ -1,4 +1,5 @@
-# coding=utf-8
+#!/usr/bin/env python3
+# -*- coding:utf-8 -*-
 # Author: Mxyzptlk
 # Date: 2018-08-16
 
@@ -76,12 +77,13 @@ def privilege_setting(arg):
         ag.click(15, aa + 15 * (arg - 1), duration=0.25)
     elif arg == 4:
         ag.click(15, aa + 15 * (arg - 1), duration=0.25)
-    ag.click(1026, 599, duration=0.25)
-    ag.click(976, 600, duration=0.25)
-    ag.click(1812, 997, duration=0.25)
-    ag.click(439, 33, duration=0.25)
-    ag.click(502, 131, duration=0.25)
-    sleep(1)
+    ag.click(655, 997, duration=0.25)#确认
+    ag.click(1017, 603, duration=0.25)#确定修改
+    ag.click(1017, 603, duration=0.25)#修改成功
+    ag.click(1812, 997, duration=0.25)#退出
+    ag.click(439, 33, duration=0.25)#设置8
+    ag.click(502, 131, duration=0.25)#员工操作员登记
+    sleep(2)
 
 
 list_item = get_list()
@@ -90,7 +92,6 @@ list_item = get_list()
 ag.click(1803, 10, duration=0.25)
 
 for l in list_item:
-    print(type(l[3]))
     if l[3] == 1:
         # 1	医生
         fill_form(l)
