@@ -3,10 +3,26 @@
 # Author: Mxyzptlk
 # Date: 2018-09-18
 
-#!/usr/bin/env python3
-# -*- coding:utf-8 -*-
-# Author: Mxyzptlk
-# Date: 2018-08-16
+
+
+
+"""
+ code is far away from bugs with the god animal protecting
+    I love animals. They taste delicious.
+             ┏┓   ┏┓
+            ┏┛┻━━━┛┻┓
+            ┃   ☃   ┃
+            ┃ ┳┛ ┗┳ ┃
+            ┃   ┻   ┃
+            ┗━┓   ┏━┛
+              ┃   ┗━━━┓
+              ┃神兽保佑 ┣┓
+              ┃永无BUG ┏┛
+              ┗┓┓┏━┳┓┏┛
+               ┃┫┫  ┃┫┫
+               ┗┻┛  ┗┻┛
+"""
+
 
 # 1	医生
 # 2	护士
