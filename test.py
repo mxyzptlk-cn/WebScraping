@@ -7,8 +7,7 @@
 
 
 """
- code is far away from bugs with the god animal protecting
-    I love animals. They taste delicious.
+ It's not a bug, it's a feature.
              ┏┓   ┏┓
             ┏┛┻━━━┛┻┓
             ┃   ☃   ┃
