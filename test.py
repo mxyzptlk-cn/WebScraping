@@ -14,10 +14,10 @@
             ┃ ┳┛ ┗┳ ┃
             ┃   ┻   ┃
             ┗━┓   ┏━┛
-              ┃   ┗━━━┓
-              ┃神兽保佑 ┣┓
-              ┃永无BUG ┏┛
-              ┗┓┓┏━┳┓┏┛
+              ┃   ┗━━━━━┓
+              ┃ 神兽保佑 ┣┓
+              ┃ 永无BUG ┏┛
+              ┗┓┓┏━━┳┓┏┛
                ┃┫┫  ┃┫┫
                ┗┻┛  ┗┻┛
 """
@@ -31,10 +31,7 @@
 # 6	物资
 # 7	收费员
 
-import os, time
-import pyautogui as ag
-import pyperclip as pc
-from time import sleep
+
 from openpyxl import load_workbook
 
 
